@@ -13,3 +13,9 @@ The complete retinal image dataset is not included in this repository because of
 - `models/` – Trained models
 - `report/` – Project report
 - `datasets/` – Dataset (available through the Google Drive link)
+
+## Trained Models
+
+The fine-tuned ResNet50 model is available here:
+
+[Download ResNet50 Fine-Tuned Model](https://drive.google.com/file/d/1BD6DdMnelnBIZDCYmR2R1j_1mKz7G9HY/view?usp=sharing)
