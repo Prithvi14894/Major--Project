@@ -3,6 +3,23 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .env
+.env.*
 datasets/
 datasets.zip
-models/
+unknown_images/
+*.db
+backend/uploads/
+
+# Ignore model files by default
+models/*
+
+# Allow smaller models
+!models/densenet121_final.keras
+!models/densenet121_best.keras
+!models/resnet50_best.keras
+!models/resnet50_final.keras
+!models/efficientnet_stage1.keras
+!models/efficientnet_stage1_final.keras
+
+# Keep large fine-tuned model out of Git
+models/resnet50_finetuned.keras
