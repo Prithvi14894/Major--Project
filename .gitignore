@@ -1,19 +1,30 @@
+
+# Python environment and cache
 .venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Secrets
 .env
 .env.*
+
+# Datasets and test images
 datasets/
 datasets.zip
 unknown_images/
-*.db
-backend/uploads/
 
-# Ignore model files by default
+# Local database
+*.db
+
+# Generated images
+backend/uploads/
+backend/gradcam/
+
+# Ignore all models by default
 models/*
 
-# Allow smaller models
+# Allow selected smaller models
 !models/densenet121_final.keras
 !models/densenet121_best.keras
 !models/resnet50_best.keras
